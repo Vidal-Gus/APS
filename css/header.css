@@ -1,23 +1,23 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
 }
 
-header img{
+header img {
     width: 150px;
 }
 
-.links-container{
+.links-container {
     display: flex;
     gap: 32px;
 }
 
-.links-container a{
+.links-container a {
     text-shadow: 2px 2px 2px #000;
     padding: 6px;
     transition: all .7s;
 }
 
-.links-container a:hover{
+.links-container a:hover {
     background-color: #e62721;
 }
