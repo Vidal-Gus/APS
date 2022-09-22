@@ -48,6 +48,22 @@
             background-color:#FF2B24;
         }
        
+        .retorno{
+            padding: 4px;
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            border: 1px solid white;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+
+        .retorno:hover{
+            background-color: #e62721;
+            transition: all 0.5s;
+            border-color: #e62721;
+        }
     
  
     
