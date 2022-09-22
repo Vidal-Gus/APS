@@ -1,10 +1,16 @@
+html, body{
+    position: relative;
+    overflow: hidden;
+}
+
+
 body{
     height: 100vh;
     background: linear-gradient(90deg, #000 , #000D 35%, #0000), url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     background-position: right;
+    display: flex;
     flex-direction: column;
     padding: 80px 128px 50px 128px;
 }
@@ -13,7 +19,7 @@ body{
     body{
         padding: 30px 30px 25px 30px;
         background-image: url(../img/background.jpg);
-        background-color: #0008;
+        background-color: #0005;
         background-blend-mode:darken ;
     }
 }
