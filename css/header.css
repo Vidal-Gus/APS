@@ -21,3 +21,9 @@ header img {
 .links-container a:hover {
     background-color: #e62721;
 }
+
+@media (max-width: 768px){
+    .links-container{
+        position: absolute;
+    }
+}
